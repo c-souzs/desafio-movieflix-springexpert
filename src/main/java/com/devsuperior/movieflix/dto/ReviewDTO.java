@@ -18,6 +18,9 @@ public class ReviewDTO {
     private String userName;
     private String userEmail;
     
+	public ReviewDTO() {
+	}
+
 	public ReviewDTO(Review entity) {
 		this.id = entity.getId();
 		this.text = entity.getText();
